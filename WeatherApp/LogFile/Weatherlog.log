@@ -1,0 +1,9 @@
+2022-06-19 20:02:30,672 DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-06-19 20:02:31,037 DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?&q=delhi&appid=fb7fc4ca044aafcbd18d78e747290646 HTTP/1.1" 200 458
+2022-06-19 20:02:31,037 DEBUG Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2022-06-19 20:02:31,037 DEBUG Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2022-06-19 20:02:31,037 DEBUG Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Delhi&format=json&limit=1
+2022-06-19 20:02:31,037 DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2022-06-19 20:02:31,551 DEBUG https://nominatim.openstreetmap.org:443 "GET /search?q=Delhi&format=json&limit=1 HTTP/1.1" 200 None
+2022-06-19 20:02:31,551 DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+2022-06-19 20:02:32,087 DEBUG http://api.openweathermap.org:80 "GET /data/2.5/air_pollution?lat=28.6517178&lon=77.2219388&appid=fb7fc4ca044aafcbd18d78e747290646 HTTP/1.1" 200 193
