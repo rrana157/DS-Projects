@@ -127,7 +127,7 @@ http://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=50&lon=50&appi
 
 
 ## 🚀 About Me
-I'm a Report Developer. And A passionate aspiring Data Scientist.
+I'm a Report Developer. And a Passionate Aspiring Data Scientist.
 
 
 # Hi, I'm Ravender Singh Rana! 👋
