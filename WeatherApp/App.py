@@ -46,12 +46,12 @@ class MainWindow(QMainWindow):
             # Air Quality label
 
             self.ui.AQI_text_label.setText(self.air_result[0])
-            self.ui.CO_text_label.setText(self.air_result[1])
-            self.ui.NO_text_label.setText(self.air_result[2])
-            self.ui.NO2_text_label.setText(self.air_result[3])
-            self.ui.O3_text_label.setText(self.air_result[4])
-            self.ui.SO2_text_label.setText(self.air_result[5])
-            self.ui.PM25_text_label.setText(self.air_result[6])
+            self.ui.CO_text_label.setText('CO ' + str(self.air_result[1]))
+            self.ui.NO_text_label.setText('NO ' + str(self.air_result[2]))
+            self.ui.NO2_text_label.setText('NO2 ' + str(self.air_result[3]))
+            self.ui.O3_text_label.setText('O3 ' + str(self.air_result[4]))
+            self.ui.SO2_text_label.setText('SO2 ' + str(self.air_result[5]))
+            self.ui.PM25_text_label.setText('PM25 ' + str(self.air_result[6]))
 
             return self.weather_result
         except Exception as e:
