@@ -26,10 +26,10 @@ and to fetch places,cities,counties,coords etc. from Algolia Places. The main go
 
 You need to signup in openweathermap to get the API key. and save the API key into "key" file.
 
-![key file](https://github.com/rrana157/DS-Projects/blob/main/WeatherApp/Screenshots/key%20file%20screenshot.png?raw=true)
-
 ## 🔗 Links
 [openweathermap](https://openweathermap.org/)
+
+![key file](https://github.com/rrana157/DS-Projects/blob/main/WeatherApp/Screenshots/key%20file%20screenshot.png?raw=true)
 
 ```http
   https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
